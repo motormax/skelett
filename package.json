@@ -10,5 +10,9 @@
   "bugs": {
     "url": "https://github.com/motormax/skelett/issues"
   },
-  "homepage": "https://github.com/motormax/skelett"
+  "homepage": "https://github.com/motormax/skelett",
+  "dependencies": {
+    "express": "~4.14.x",
+    "lodash": "~4.17.x"
+  }
 }
