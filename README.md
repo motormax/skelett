@@ -1,3 +1,5 @@
 # Motormax Skelett
 
-Humble bundle for agile application development using Express, Mongoose & JWT.
+A humble bundle for agile application development using Express, Mongoose & JWT.
+
+In progress...
