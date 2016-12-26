@@ -1,7 +1,7 @@
 {
   "name": "motormax-skelett",
   "description": "A humble bundle for agile application development using Express, Mongoose & JWT.",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "author": "Gabriel Alberto Sarmentero <gsarmentero@motormax.com.ar>",
   "repository": {
     "type": "git",
