@@ -92,13 +92,13 @@ application.get('/', (request, response, next) {
 
 ### JWT authentication
 
-Skelett provides a simple authentication mechanism using JSON Web Tokens. In a nutshell, uses a custom user model for token signing and validates it to authorize user access.
+Skelett provides a simple authentication mechanism using JSON Web Tokens. In a nutshell, it uses a custom user model for token signing and validates it to authorize user access.
 
-**Caution!** This implementation affects to all application endpoints.
+**Caution!** This implementation affects to application endpoints.
 
 #### Creating a JWT User
 
-First, you need to configure `jwt` in order to create a JWT User; it is required for token negotiation. You can create it manually by inserting a document into the `jwt_users` collection or also by creating a new `JWTUser` as shown in the following example. This is a first approach, additional fields and password encoding are not supported yet.
+First, you need to configure `jwt` in order to create a JWT User, this is mandatory for token negotiation. You can create it manually by inserting a document into the `jwt_users` collection or by creating a new `JWTUser` as shown in the following example. This is a first approach, additional fields and password encoding are not yet supported.
 
 ```js
 // Gets the model through the provided database identifier in the configuration.
@@ -209,7 +209,7 @@ application.get('/backoffice', accessControl, (request, response, next) => {
 
 Before reporting an issue (e.g. bug, enhacement, feature), check the currently [open issues](https://github.com/motormax/skelett/issues) to make sure that you are not creating a duplicate.
 
-Before reporting a bug, please make sure that Skelett is really the cause of the problem.
+Before reporting a bug, please make sure that Skelett is actually the cause of the problem.
 
 When reporting an issue, please provide as much context as possible. Thank you for your contribution.
 
